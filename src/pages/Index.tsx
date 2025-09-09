@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MainMenu from "@/components/MainMenu";
-import TerrazaMenu from "@/components/TerrazaMenu";
 import SpecialMenus from "@/components/SpecialMenus";
 import WineMenu from "@/components/WineMenu";
 import Footer from "@/components/Footer";
@@ -12,7 +11,6 @@ const Index = () => {
       <Header />
       <Hero />
       <MainMenu />
-      <TerrazaMenu />
       <SpecialMenus />
       <WineMenu />
       <Footer />

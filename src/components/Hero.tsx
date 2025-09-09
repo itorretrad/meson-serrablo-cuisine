@@ -43,7 +43,7 @@ const Hero = () => {
             Ver Carta
           </Button>
           <Button 
-            onClick={() => scrollToSection('contacto')}
+            onClick={() => scrollToSection('reserva')}
             variant="outline"
             size="lg"
             className="border-white/30 text-white hover:bg-white hover:text-foreground font-medium px-8 py-3 rounded-lg backdrop-blur-sm transition-all duration-300"

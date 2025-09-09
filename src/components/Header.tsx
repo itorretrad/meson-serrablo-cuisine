@@ -27,22 +27,10 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button 
-              onClick={() => scrollToSection('inicio')}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
-            >
-              Inicio
-            </button>
-            <button 
               onClick={() => scrollToSection('carta')}
               className="text-foreground hover:text-primary transition-smooth font-medium"
             >
               Carta Principal
-            </button>
-            <button 
-              onClick={() => scrollToSection('raciones')}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
-            >
-              Raciones
             </button>
             <button 
               onClick={() => scrollToSection('menus')}
@@ -57,10 +45,10 @@ const Header = () => {
               Vinos
             </button>
             <button 
-              onClick={() => scrollToSection('contacto')}
+              onClick={() => scrollToSection('reserva')}
               className="text-foreground hover:text-primary transition-smooth font-medium"
             >
-              Contacto
+              Reserva
             </button>
           </nav>
 
@@ -82,22 +70,10 @@ const Header = () => {
           <div className="md:hidden absolute top-full left-0 w-full bg-card shadow-medium">
             <nav className="px-4 py-4 space-y-2">
               <button 
-                onClick={() => scrollToSection('inicio')}
-                className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
-              >
-                Inicio
-              </button>
-              <button 
                 onClick={() => scrollToSection('carta')}
                 className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
               >
                 Carta Principal
-              </button>
-              <button 
-                onClick={() => scrollToSection('raciones')}
-                className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
-              >
-                Raciones
               </button>
               <button 
                 onClick={() => scrollToSection('menus')}
@@ -112,10 +88,10 @@ const Header = () => {
                 Vinos
               </button>
               <button 
-                onClick={() => scrollToSection('contacto')}
+                onClick={() => scrollToSection('reserva')}
                 className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
               >
-                Contacto
+                Reserva
               </button>
             </nav>
           </div>
