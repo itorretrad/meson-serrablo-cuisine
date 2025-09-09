@@ -179,17 +179,11 @@ const MainMenu = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+        <div className="max-w-4xl mx-auto space-y-8">
           <MenuSection title="Entrantes Fríos" items={entrantesFrios} />
           <MenuSection title="Entrantes Calientes" items={entrantesCalientes} />
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <MenuSection title="Pescados" items={pescados} />
           <MenuSection title="Carnes" items={carnes} />
-        </div>
-
-        <div className="max-w-4xl mx-auto">
           <MenuSection title="Postres Caseros" items={postres} />
         </div>
 

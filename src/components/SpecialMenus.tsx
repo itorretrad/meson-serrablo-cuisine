@@ -37,7 +37,7 @@ const SpecialMenus = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+        <div className="max-w-4xl mx-auto space-y-8 mb-8">
           {/* Menú del Día */}
           <div className="bg-gradient-card rounded-lg p-8 shadow-medium hover:shadow-strong transition-all duration-300">
             <div className="text-center mb-6">
@@ -102,7 +102,7 @@ const SpecialMenus = () => {
           </div>
 
           {/* Menús Premium y otros */}
-          <div className="space-y-6">
+          <div className="space-y-6 max-w-2xl mx-auto">
             <div className="bg-gradient-card rounded-lg p-6 shadow-soft">
               <h3 className="text-xl font-serif font-semibold text-primary mb-4">
                 Menús con Bodega Superior

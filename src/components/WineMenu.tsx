@@ -121,16 +121,11 @@ const WineMenu = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+        <div className="max-w-4xl mx-auto space-y-8">
           <RegionSection title="Tintos" regions={tintos} />
-          <div className="space-y-8">
-            <WineSection title="Rosados" wines={rosados} />
-            <WineSection title="Cavas y Champagnes" wines={cavas} />
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <WineSection title="Rosados" wines={rosados} />
           <WineSection title="Blancos" wines={blancos} />
+          <WineSection title="Cavas y Champagnes" wines={cavas} />
           <WineSection title="Otros" wines={otros} />
         </div>
 

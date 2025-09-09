@@ -2,64 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Mesón Serrablo Design System - Elegant Spanish Restaurant Theme
+/* Mesón Serrablo Design System - Dark Elegant Spanish Restaurant Theme
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    /* Background palette - warm, inviting tones */
-    --background: 35 15% 97%;
-    --foreground: 25 20% 15%;
-    --surface: 30 25% 95%;
+    /* Dark background palette - sophisticated night atmosphere */
+    --background: 220 15% 8%;
+    --foreground: 45 20% 92%;
+    --surface: 220 12% 12%;
 
-    /* Card system with warmth */
-    --card: 35 20% 98%;
-    --card-foreground: 25 25% 20%;
+    /* Card system with dark elegance */
+    --card: 220 15% 10%;
+    --card-foreground: 45 15% 90%;
 
     /* Popover elements */
-    --popover: 35 20% 98%;
-    --popover-foreground: 25 25% 20%;
+    --popover: 220 15% 10%;
+    --popover-foreground: 45 15% 90%;
 
-    /* Primary - terracotta/rust elegance */
-    --primary: 15 65% 45%;
-    --primary-foreground: 35 15% 97%;
-    --primary-dark: 15 70% 35%;
-    --primary-light: 15 45% 75%;
+    /* Primary - warm gold elegance */
+    --primary: 45 85% 65%;
+    --primary-foreground: 220 15% 8%;
+    --primary-dark: 45 75% 55%;
+    --primary-light: 45 95% 75%;
 
-    /* Secondary - warm gold */
-    --secondary: 45 85% 85%;
-    --secondary-foreground: 25 25% 20%;
-    --secondary-dark: 45 60% 45%;
+    /* Secondary - charcoal sophistication */
+    --secondary: 220 10% 18%;
+    --secondary-foreground: 45 15% 90%;
+    --secondary-dark: 220 15% 12%;
 
-    /* Accent - deep burgundy */
-    --accent: 345 40% 35%;
-    --accent-foreground: 35 15% 97%;
-    --accent-light: 345 35% 55%;
+    /* Accent - deep wine red */
+    --accent: 345 60% 45%;
+    --accent-foreground: 45 15% 95%;
+    --accent-light: 345 50% 65%;
 
-    /* Muted tones */
-    --muted: 30 15% 92%;
-    --muted-foreground: 25 15% 55%;
+    /* Muted dark tones */
+    --muted: 220 8% 22%;
+    --muted-foreground: 45 10% 65%;
 
     /* Utility colors */
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 30 20% 88%;
-    --input: 30 20% 90%;
-    --ring: 15 65% 45%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 45 15% 95%;
+    --border: 220 10% 25%;
+    --input: 220 12% 15%;
+    --ring: 45 85% 65%;
 
     /* Design system extensions */
     --radius: 0.75rem;
     
-    /* Custom gradients for restaurant ambiance */
-    --gradient-hero: linear-gradient(135deg, hsl(15 65% 45%) 0%, hsl(345 40% 35%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(35 20% 98%) 0%, hsl(30 15% 96%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(45 85% 85%) 0%, hsl(45 60% 75%) 100%);
+    /* Custom dark gradients for sophisticated ambiance */
+    --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(345 30% 15%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(220 15% 12%) 0%, hsl(220 12% 10%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(220 10% 18%) 0%, hsl(220 8% 22%) 100%);
     
-    /* Elegant shadows */
-    --shadow-soft: 0 4px 20px -8px hsl(25 25% 20% / 0.15);
-    --shadow-medium: 0 8px 30px -12px hsl(25 25% 20% / 0.25);
-    --shadow-strong: 0 20px 40px -16px hsl(25 25% 20% / 0.4);
+    /* Dark elegant shadows */
+    --shadow-soft: 0 4px 20px -8px hsl(0 0% 0% / 0.4);
+    --shadow-medium: 0 8px 30px -12px hsl(0 0% 0% / 0.6);
+    --shadow-strong: 0 20px 40px -16px hsl(0 0% 0% / 0.8);
     
     /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -83,48 +83,48 @@ All colors MUST be HSL.
   }
 
   .dark {
-    /* Dark theme - elegant evening restaurant atmosphere */
-    --background: 25 25% 8%;
-    --foreground: 35 15% 92%;
-    --surface: 25 20% 12%;
+    /* Even darker theme for ultra-sophisticated ambiance */
+    --background: 220 20% 4%;
+    --foreground: 45 25% 95%;
+    --surface: 220 18% 6%;
 
-    --card: 25 20% 10%;
-    --card-foreground: 35 15% 92%;
+    --card: 220 20% 6%;
+    --card-foreground: 45 20% 95%;
 
-    --popover: 25 20% 10%;
-    --popover-foreground: 35 15% 92%;
+    --popover: 220 20% 6%;
+    --popover-foreground: 45 20% 95%;
 
-    --primary: 15 55% 55%;
-    --primary-foreground: 25 25% 8%;
-    --primary-dark: 15 60% 45%;
-    --primary-light: 15 40% 65%;
+    --primary: 45 90% 70%;
+    --primary-foreground: 220 20% 4%;
+    --primary-dark: 45 80% 60%;
+    --primary-light: 45 100% 80%;
 
-    --secondary: 25 20% 15%;
-    --secondary-foreground: 35 15% 92%;
-    --secondary-dark: 25 25% 12%;
+    --secondary: 220 15% 10%;
+    --secondary-foreground: 45 20% 95%;
+    --secondary-dark: 220 20% 6%;
 
-    --accent: 345 35% 45%;
-    --accent-foreground: 35 15% 92%;
-    --accent-light: 345 30% 65%;
+    --accent: 345 70% 50%;
+    --accent-foreground: 45 20% 95%;
+    --accent-light: 345 60% 70%;
 
-    --muted: 25 15% 18%;
-    --muted-foreground: 35 10% 65%;
+    --muted: 220 12% 15%;
+    --muted-foreground: 45 15% 70%;
 
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 35 15% 92%;
-    --border: 25 20% 20%;
-    --input: 25 20% 15%;
-    --ring: 15 55% 55%;
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 45 20% 95%;
+    --border: 220 15% 20%;
+    --input: 220 18% 8%;
+    --ring: 45 90% 70%;
     
-    /* Dark theme gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(15 55% 35%) 0%, hsl(345 35% 25%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(25 20% 12%) 0%, hsl(25 15% 10%) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(25 20% 15%) 0%, hsl(25 15% 18%) 100%);
+    /* Ultra-dark theme gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 20% 4%) 0%, hsl(345 40% 10%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(220 20% 8%) 0%, hsl(220 18% 6%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(220 15% 10%) 0%, hsl(220 12% 15%) 100%);
     
-    /* Dark shadows */
-    --shadow-soft: 0 4px 20px -8px hsl(0 0% 0% / 0.3);
-    --shadow-medium: 0 8px 30px -12px hsl(0 0% 0% / 0.4);
-    --shadow-strong: 0 20px 40px -16px hsl(0 0% 0% / 0.6);
+    /* Ultra-dark shadows */
+    --shadow-soft: 0 4px 20px -8px hsl(0 0% 0% / 0.6);
+    --shadow-medium: 0 8px 30px -12px hsl(0 0% 0% / 0.8);
+    --shadow-strong: 0 20px 40px -16px hsl(0 0% 0% / 0.9);
   }
 }
 
