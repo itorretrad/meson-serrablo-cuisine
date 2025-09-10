@@ -19,7 +19,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
               >
-                <span className="text-sm font-semibold">FB</span>
+                <img src="/lovable-uploads/a5fb4f25-a2ce-45f0-ae3b-e6a08faf6b6b.png" alt="Facebook" className="w-6 h-6" />
               </a>
               <a 
                 href="https://www.instagram.com/mesonserrablo/" 
