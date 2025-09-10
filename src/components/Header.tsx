@@ -27,16 +27,16 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <button 
-              onClick={() => scrollToSection('carta')}
-              className="text-foreground hover:text-primary transition-smooth font-medium"
-            >
-              Carta Principal
-            </button>
-            <button 
               onClick={() => scrollToSection('menus')}
               className="text-foreground hover:text-primary transition-smooth font-medium"
             >
               Menús
+            </button>
+            <button 
+              onClick={() => scrollToSection('carta')}
+              className="text-foreground hover:text-primary transition-smooth font-medium"
+            >
+              Carta Principal
             </button>
             <button 
               onClick={() => scrollToSection('vinos')}
@@ -70,16 +70,16 @@ const Header = () => {
           <div className="md:hidden absolute top-full left-0 w-full bg-card shadow-medium">
             <nav className="px-4 py-4 space-y-2">
               <button 
-                onClick={() => scrollToSection('carta')}
-                className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
-              >
-                Carta Principal
-              </button>
-              <button 
                 onClick={() => scrollToSection('menus')}
                 className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
               >
                 Menús
+              </button>
+              <button 
+                onClick={() => scrollToSection('carta')}
+                className="block w-full text-left py-2 text-foreground hover:text-primary transition-smooth font-medium"
+              >
+                Carta Principal
               </button>
               <button 
                 onClick={() => scrollToSection('vinos')}
