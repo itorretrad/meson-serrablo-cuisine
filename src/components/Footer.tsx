@@ -1,32 +1,17 @@
 import { MapPin, Phone, Clock } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer id="reserva" className="bg-primary text-primary-foreground py-16">
+  return <footer id="reserva" className="bg-primary text-primary-foreground py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo y descripción */}
           <div className="col-span-1 lg:col-span-2">
             <h3 className="text-3xl font-serif font-bold mb-4">Mesón Serrablo</h3>
-            <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Tradición culinaria aragonesa en el corazón de la gastronomía española. 
-              Más de años ofreciendo los sabores más auténticos con ingredientes de la máxima calidad.
-            </p>
+            <p className="text-primary-foreground/80 mb-6 leading-relaxed">Tradición culinaria aragonesa en el corazón de la gastronomía española. Muchos años ofreciendo los sabores más auténticos con ingredientes de la máxima calidad.</p>
             <div className="flex space-x-4">
-              <a 
-                href="https://www.facebook.com/mesonserrablo" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
-              >
+              <a href="https://www.facebook.com/mesonserrablo" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer">
                 <img src="/lovable-uploads/f820f3b7-8a55-4685-8d29-7b33e1c51977.png" alt="Facebook" className="w-6 h-6" />
               </a>
-              <a 
-                href="https://www.instagram.com/mesonserrablo/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
-              >
+              <a href="https://www.instagram.com/mesonserrablo/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer">
                 <img src="/lovable-uploads/d6e8a045-2928-4af6-9c93-4f1403bc45e1.png" alt="Instagram" className="w-6 h-6" />
               </a>
             </div>
@@ -92,8 +77,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
