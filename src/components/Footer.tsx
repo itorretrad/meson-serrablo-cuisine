@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, Clock } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -13,15 +13,22 @@ const Footer = () => {
               Más de años ofreciendo los sabores más auténticos con ingredientes de la máxima calidad.
             </p>
             <div className="flex space-x-4">
-              <div className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer">
+              <a 
+                href="https://www.facebook.com/mesonserrablo" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
+              >
                 <span className="text-sm font-semibold">FB</span>
-              </div>
-              <div className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer">
+              </a>
+              <a 
+                href="https://www.instagram.com/mesonserrablo/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
+              >
                 <span className="text-sm font-semibold">IG</span>
-              </div>
-              <div className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer">
-                <span className="text-sm font-semibold">TW</span>
-              </div>
+              </a>
             </div>
           </div>
 
@@ -32,17 +39,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 mt-1 text-primary-foreground/70" />
                 <div>
-                  <p className="text-primary-foreground/90">Dirección del Restaurante</p>
-                  <p className="text-primary-foreground/70 text-sm">Serrablo, Huesca, España</p>
+                  <p className="text-primary-foreground/90">C. del Obispo, 3</p>
+                  <p className="text-primary-foreground/70 text-sm">22700 Jaca, Huesca</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary-foreground/70" />
                 <p className="text-primary-foreground/90">+34 XXX XXX XXX</p>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-primary-foreground/70" />
-                <p className="text-primary-foreground/90">info@mesonserrablo.com</p>
               </div>
             </div>
           </div>
@@ -54,15 +57,15 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 mt-1 text-primary-foreground/70" />
                 <div>
-                  <p className="text-primary-foreground/90 font-medium">Comidas</p>
-                  <p className="text-primary-foreground/70 text-sm">13:00 - 16:00</p>
+                  <p className="text-primary-foreground/90 font-medium">De lunes a sábado</p>
+                  <p className="text-primary-foreground/70 text-sm">12:00–16:00, 20:00–23:00</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 mt-1 text-primary-foreground/70" />
                 <div>
-                  <p className="text-primary-foreground/90 font-medium">Cenas</p>
-                  <p className="text-primary-foreground/70 text-sm">20:00 - 23:30</p>
+                  <p className="text-primary-foreground/90 font-medium">Domingos</p>
+                  <p className="text-primary-foreground/70 text-sm">12:00–16:00</p>
                 </div>
               </div>
               <div className="mt-4 p-3 bg-primary-foreground/10 rounded-lg">
