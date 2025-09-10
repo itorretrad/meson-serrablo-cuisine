@@ -27,7 +27,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary-foreground/10 rounded-full flex items-center justify-center hover:bg-primary-foreground/20 transition-colors cursor-pointer"
               >
-                <span className="text-sm font-semibold">IG</span>
+                <img src="/lovable-uploads/d6e8a045-2928-4af6-9c93-4f1403bc45e1.png" alt="Instagram" className="w-6 h-6" />
               </a>
             </div>
           </div>
