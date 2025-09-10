@@ -30,8 +30,8 @@ const Hero = () => {
           <Button onClick={() => scrollToSection('carta')} size="lg" className="bg-primary hover:bg-primary-dark text-primary-foreground font-medium px-8 py-3 rounded-lg shadow-medium hover:shadow-strong transition-all duration-300 transform hover:scale-105">
             Ver Carta
           </Button>
-          <Button onClick={() => scrollToSection('reserva')} variant="outline" size="lg" className="border-white/30 text-white hover:bg-white hover:text-foreground font-medium px-8 py-3 rounded-lg backdrop-blur-sm transition-all duration-300">
-            Reservar Mesa
+          <Button asChild variant="outline" size="lg" className="border-white/30 text-white hover:bg-white hover:text-foreground font-medium px-8 py-3 rounded-lg backdrop-blur-sm transition-all duration-300">
+            <a href="tel:+34974362418">Reservar Mesa</a>
           </Button>
         </div>
       </div>
