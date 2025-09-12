@@ -7,13 +7,23 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background md:scroll-smooth scroll-snap-y scroll-snap-mandatory overflow-y-scroll h-screen">
       <Header />
-      <Hero />
-      <SpecialMenus />
-      <MainMenu />
-      <WineMenu />
-      <Footer />
+      <div className="scroll-snap-start">
+        <Hero />
+      </div>
+      <div className="scroll-snap-start">
+        <SpecialMenus />
+      </div>
+      <div className="scroll-snap-start">
+        <MainMenu />
+      </div>
+      <div className="scroll-snap-start">
+        <WineMenu />
+      </div>
+      <div className="scroll-snap-start">
+        <Footer />
+      </div>
     </div>
   );
 };
